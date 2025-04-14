@@ -8,4 +8,6 @@ function createPost(image,title,tags) {
 
 
 let post1 = new createPost("photo.jpg", "Bugun zo'r kun", ["fun", "holiday"]);
+let post2 = new createPost("photoblabla.jpg", "Bugun zo'r kun", ["COOL", "AMAZING"]);
 console.log(post1);
+console.log(post2);

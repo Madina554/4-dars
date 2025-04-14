@@ -1,26 +1,26 @@
-function raqam(raqam) {
+function baho(mark) {
     let natija;
-    switch (raqam) {
+    switch (mark) {
         case 1:
-            natija = "bir";
+            natija = "Yomon";
             break;
         case 2:
-            natija = "ikki";
+            natija = "Qoniqarsiz";
             break;
         case 3:
-            natija = "uch";
+            natija = "Qoniqarli";
             break;
         case 4:
-            natija = "to'rt";
+            natija = "Yaxshi";
             break;
         case 5:
-            natija = "besh";
+            natija = "A'lo";
             break;
         default:
-            natija = "noto'g'ri raqam";
+            natija = "Noto'g'ri baho";
     }
     return natija;
 }
-console.log(raqamSozga(1));
-console.log(raqamSozga(3));
-console.log(raqamSozga(7)); 
+console.log(baho(1));
+console.log(baho(3));
+console.log(baho(7)); 

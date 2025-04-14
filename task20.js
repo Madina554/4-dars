@@ -21,6 +21,6 @@ function raqam(raqam) {
     }
     return natija;
 }
-console.log(raqamSozga(1));
-console.log(raqamSozga(3)); 
-console.log(raqamSozga(7)); 
+console.log(raqam(1));
+console.log(raqam(3)); 
+console.log(raqam(7)); 

@@ -7,16 +7,10 @@ function orderPizza(size, toppings) {
     } else {
         pitsa = 40000;
     }
-    const topping = toppings.length * 7500;
-    const price = pitsa + topping;
-    const natija = {
-        size: size,
-        toppings: toppings,
-        price: price,
-        time: "30 daqiqa"
-    };
-
-    console.log(natija);
+    this.size = size,
+    this.topping = toppings.length * 7500,
+    this.price = pitsa + topping,
+    this.time = "30 daqiqa"
 }
-
-console.log(orderPizza("medium", ["cheese", "tomato"]));
+pizza1 = orderPizza("medium", ["cheese", "tomato"]);
+console.log(pizza1);

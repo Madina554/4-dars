@@ -1,15 +1,11 @@
 function createPost(image,title,tags) {
-    const likes = Math.floor(Math.random() * 1000) + 1;
-    const views = Math.floor(Math.random() * 1000) + 1;
-    const post = {
-        image: image,
-        title: title,
-        tags: tags,
-        likes: likes,
-        views: views
+        this.image= image,
+        this.title= title,
+        this.tags=tags,
+        this.likes = Math.floor(Math.random() * 1000) + 1;
+        this.views = Math.floor(Math.random() * 1000) + 1;
     };
 
-    console.log(post);
-}
 
-createPost("photo.jpg", "Bugun zo'r kun", ["fun", "holiday"]);
+let post1 = new createPost("photo.jpg", "Bugun zo'r kun", ["fun", "holiday"]);
+console.log(post1);
